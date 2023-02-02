@@ -28,24 +28,32 @@ const Navbar = () => {
     }
 
     return (
-        <div className={shadow ? 'sticky top-0 container mx-auto bg-white shadow-md shadow-white z-50' : 'container mx-auto'}>
+        <div className={shadow ? 'sticky top-0 container mx-auto bg-second drop-shadow-md shadow-black z-50' : 'container mx-auto bg-second'}>
             <div className='flex justify-between items-center  h-full px-3'>
                 <a href='/'>
                     <img src={MobileLogo} alt='vs logo' width='25%' height='25%' className='pt-3' aria-label="routes to home page" />
                 </a>
                 <div>
-                    <ul className='hidden md:flex'>
+                    <ul className='hidden md:flex items-center'>
                         <a href='/'>
                             <li className='ml-10 text-sm hover:border-b border-gray-700'>Home</li>
                         </a>
                         <a href='/#about'>
+                            <li className='ml-10 text-sm hover:border-b border-gray-700'>Reviews</li>
+                        </a>
+                        <a id='/#about'>
                             <li className='ml-10 text-sm hover:border-b border-gray-700'>About</li>
                         </a>
-                        <a href='/#skills'>
-                            <li className='ml-10 text-sm hover:border-b border-gray-700'>Services</li>
+                        <a id='about'>
+                            <li className='ml-10 text-sm hover:border-b border-gray-700'>Resources</li>
                         </a>
                         <a href='/#projects'>
                             <li className='ml-10 text-sm hover:border-b border-gray-700'>FAQ</li>
+                        </a>
+                        <a className='pl-5' href='/#projects'>
+                            <button className='border border-white hover:bg-white hover:font-semibold  rounded-lg px-3 py-3'>
+                                <li className='flex justify-centerml-10 text-sm '>Contact Me</li>
+                                </button>
                         </a>
                         
                     </ul>
