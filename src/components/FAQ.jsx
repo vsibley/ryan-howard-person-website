@@ -2,8 +2,8 @@ import React from 'react'
 
 const FAQ = () => {
     return (
-        <div className="bg-[url('https://images.unsplash.com/photo-1605146768851-eda79da39897?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80')] bg-right bg-center w-full bg-center container mx-auto ">
-                <div class="container py-8 px-9 mx-auto bg-white/75 ">
+        <div className="bg-[url('https://images.unsplash.com/photo-1605146768851-eda79da39897?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80')] bg-right w-full bg-center container mx-auto bg-no-repeat bg-cover ">
+                <div class="container py-8 px-9 mx-auto bg-white/80 ">
                 <h2 class="mb-12 text-4xl font-black font-mulish border-b-2 border-gray-100">
                         FAQs
                     </h2>

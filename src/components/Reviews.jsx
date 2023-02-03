@@ -4,7 +4,7 @@ import { AiFillStar } from 'react-icons/ai'
 const Reviews = () => {
     return (
         <div className='container px-8 py-[3rem] mx-auto font-mulish'>
-            <h2 class="flex text-4xl font-black font-mulish sm:text-4xl">
+            <h2 class="flex md:text-4xl font-black font-mulish text-3xl">
 
           Customer Reviews | Average Rating 4.8 <AiFillStar className='text-gold hidden md:flex' /></h2>
 
@@ -22,12 +22,10 @@ const Reviews = () => {
                         </span>
                     </p>
                     <div class="flex items-center mt-4">
-                        <a href="#" class="relative block">
-                            <img alt="profil" src={Headshot} class="mx-auto object-cover rounded-full h-10 w-10 " />
-                        </a>
+                      
                         <div class="flex flex-col justify-between ml-2">
 
-                            <span class="flex items-center text-sm font-medium">
+                            <span class="flex items-center text-sm font-black">
 BERZAIN E                                
                             </span>
                         </div>
@@ -47,12 +45,10 @@ BERZAIN E
                         </span>
                     </p>
                     <div class="flex items-center mt-4">
-                        <a href="#" class="relative block">
-                            <img alt="profil" src={Headshot} class="mx-auto object-cover rounded-full h-10 w-10 " />
-                        </a>
+                       
                         <div class="flex flex-col justify-between ml-2">
 
-                            <span class="flex items-center text-sm font-medium">
+                            <span class="flex items-center text-sm font-black">
                                Abigail G
                             </span>
                         </div>
@@ -74,12 +70,10 @@ BERZAIN E
                         </span>
                     </p>
                     <div class="flex items-center mt-4">
-                        <a href="#" class="relative block">
-                            <img alt="profil" src={Headshot} class="mx-auto object-cover rounded-full h-10 w-10 " />
-                        </a>
+                        
                         <div class="flex flex-col justify-between ml-2">
 
-                            <span class="flex items-center text-sm font-medium">
+                            <span class="flex items-center text-sm font-black">
                                 Lauri J
                             </span>
                         </div>

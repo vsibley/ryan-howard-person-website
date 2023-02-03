@@ -24,7 +24,7 @@ const Hero = () => {
                         
                         <div a className="lg:mt-0 lg:flex-shrink-0">
                             <div a className="flex mt-[3rem] md:mt-5rem] lg:mt-[6rem]">
-                                <a href="#" a className="px-4 py-2 mr-4 uppercase bg-[transparent] border-2 border-prim hover:border-white rounded-lg hover:bg-white hover:font-semibold">
+                                <a href="https://calendly.com/rhoward-06" a className="px-4 py-2 mr-4 uppercase bg-[transparent] border-2 border-prim hover:border-white rounded-lg hover:bg-white hover:font-semibold">
                                     Book A Call
                                 </a>
 
